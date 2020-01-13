@@ -521,7 +521,10 @@
     <Compile Include="Documentation\kivy\kivy-master\kivy\weakmethod.py" />
     <Compile Include="Documentation\kivy\kivy-master\kivy\__init__.py" />
     <Compile Include="Documentation\kivy\kivy-master\setup.py" />
-    <Compile Include="main.py" />
+    <Compile Include="main.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Secao20_Aulas137a143.py" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Documentation\" />
