@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>e00376b4-4355-4549-86a8-669b815fc64e</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>main.py</StartupFile>
+    <StartupFile>Secao22\main.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -521,7 +521,7 @@
     <Compile Include="Documentation\kivy\kivy-master\kivy\weakmethod.py" />
     <Compile Include="Documentation\kivy\kivy-master\kivy\__init__.py" />
     <Compile Include="Documentation\kivy\kivy-master\setup.py" />
-    <Compile Include="main.py">
+    <Compile Include="Secao22\main.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="Secao20_Aulas137a143.py" />
@@ -752,6 +752,7 @@
     <Folder Include="Documentation\kivy\kivy-master\kivy\uix\recycleview\" />
     <Folder Include="Documentation\kivy\util\" />
     <Folder Include="Documentation\kivy\util\custom\" />
+    <Folder Include="Secao22\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Documentation\kivy-30102016.zip" />
@@ -1671,6 +1672,9 @@
     <Content Include="Documentation\kivy\kivy-master\setup.cfg" />
     <Content Include="Documentation\kivy\util\custom\custom.css" />
     <Content Include="Documentation\kivy\util\custom\LEIA-ME.txt" />
+    <Content Include="Secao22\hello.kv">
+      <SubType>Code</SubType>
+    </Content>
   </ItemGroup>
   <ItemGroup>
     <Interpreter Include="..\venv\">
